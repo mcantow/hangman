@@ -5,9 +5,7 @@ Created on Tue Feb 12 21:06:04 2019
 @author: MCantow
 """
 
-#plan: learn django soon and make a web page which runs this hangman file. Than use that
-#knowlegde to creat a usefull program using dfs. 
-#create a machine learning program using regression
+
 
 #game of hangman, users lose on sixth incorrect guess
 
@@ -15,10 +13,9 @@ Created on Tue Feb 12 21:06:04 2019
 import random
 import string
 
-#possible_phrases = ['paul is dirty']
-#phrase = random.choice(possible_phrases)
-#phrase = 'bubs cubs smokin nugs'
-phrase = 'passionate gay anal penetration'
+possible_phrases = ['paul is dirty']
+phrase = random.choice(possible_phrases)
+
 
 
 class display_letters(object):
